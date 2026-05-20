@@ -1,0 +1,67 @@
+.preloader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.96);
+  backdrop-filter: blur(22px);
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition: opacity 1s ease-in-out, visibility 1s;
+}
+
+.preloader-container.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.animated-logo-wrapper {
+  transition: opacity 1s ease;
+}
+
+/* Barra de Carga Blanca Brillante */
+.loading-bar-wrapper {
+  width: 300px;
+  max-width: 80vw;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 8vh; /* Colocada en la parte de abajo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-bar-fill {
+  height: 4px;
+  background-color: #ffffff;
+  width: 0%;
+  border-radius: 2px;
+  box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.4);
+  transition: width 0.1s linear;
+}
+
+/* Fondo transparente de la barra para que resalte la línea blanca */
+.loading-bar-fill::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 4px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 2px;
+  z-index: -1;
+}
+
+.loading-bar-text {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  opacity: 0.9;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}

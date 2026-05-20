@@ -1,0 +1,12 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="40" fill="#081b2e"/>
+  <path d="M0 420C120 360 210 440 300 420C390 400 480 460 570 430C660 400 750 470 900 430V600H0V420Z" fill="#0ea5e9" opacity="0.9"/>
+  <path d="M0 460C120 400 210 480 300 460C390 440 480 500 570 470C660 440 750 510 900 470V600H0V460Z" fill="#22d3ee" opacity="0.75"/>
+  <rect x="210" y="240" width="180" height="140" rx="20" fill="#f8fafc"/>
+  <path d="M250 240L280 190L340 190L370 240H250Z" fill="#0f172a"/>
+  <rect x="260" y="300" width="40" height="80" rx="10" fill="#0f172a"/>
+  <rect x="330" y="300" width="40" height="80" rx="10" fill="#0f172a"/>
+  <circle cx="640" cy="180" r="80" fill="#fff" opacity="0.13"/>
+  <text x="225" y="420" fill="#f8fafc" font-family="Inter, sans-serif" font-size="32" font-weight="700">Caño El Pital</text>
+  <text x="225" y="460" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="22">Inundación y limpieza</text>
+</svg>

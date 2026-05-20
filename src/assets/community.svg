@@ -1,0 +1,15 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="40" fill="#081b2e"/>
+  <path d="M0 520C120 470 240 520 360 500C480 480 600 530 720 500C840 470 900 490 900 560V600H0V520Z" fill="#10b981" opacity="0.9"/>
+  <circle cx="290" cy="250" r="80" fill="#f8fafc" opacity="0.12"/>
+  <circle cx="530" cy="250" r="80" fill="#f8fafc" opacity="0.12"/>
+  <circle cx="410" cy="200" r="70" fill="#f8fafc" opacity="0.18"/>
+  <rect x="255" y="320" width="70" height="120" rx="35" fill="#0f172a"/>
+  <rect x="500" y="320" width="70" height="120" rx="35" fill="#0f172a"/>
+  <path d="M380 360L370 420C370 430 380 440 390 440H510C520 440 530 430 530 420L520 360" fill="#0f172a"/>
+  <path d="M360 220C360 230 350 240 340 240C330 240 320 230 320 220C320 210 330 200 340 200C350 200 360 210 360 220Z" fill="#0f172a"/>
+  <path d="M560 220C560 230 550 240 540 240C530 240 520 230 520 220C520 210 530 200 540 200C550 200 560 210 560 220Z" fill="#0f172a"/>
+  <path d="M420 430C420 440 430 450 440 450H460C470 450 480 440 480 430V410H420V430Z" fill="#0f172a"/>
+  <text x="220" y="490" fill="#f8fafc" font-family="Inter, sans-serif" font-size="32" font-weight="700">Cultura y Comunidad</text>
+  <text x="220" y="530" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="22">Apoyo local</text>
+</svg>
